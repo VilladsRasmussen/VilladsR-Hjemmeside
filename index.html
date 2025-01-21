@@ -5,23 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villads Rasmussen</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/c9d62a50e6.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
 
-<header>
+<!-- Header -->
+<header id="mainHeader">
+    <a href="index.html"><img class="logo" src="img/logo.png"></a>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#" id="menuBtn"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
     </nav>
-    <div>
-        <img class="logo" src="img/logo.png">
-        <h1>Villads O. Rasmussen</h1>
-    </div>
 </header>
+
+<!-- Hero -->
+<section class="hero">
+    <video autoplay muted loop playsinline preload="auto" id="heroVideo">
+        <source src="vid/1437396-uhd_3840_2160_24fps.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+        <h1>Villads Otto Rasmussen</h1>
+        <p>Har du tid til kreativitet?</p>
+    </div>
+</section>
+
+<!-- Side menu -->
+<section id="sideMenu">
+    <ul>
+        <li><a href="#">Menu item 1</a></li>
+        <li><a href="#">Menu item 2</a></li>
+    </ul>
+</section>
+
+<!-- Om Mig -->
+<section class="om-mig">
+    <article class="om-mig-indhold hidden">
+        <div class="villads">
+            <img src="img/villads.jpg" alt="Villads Otto Rasmussen" />
+        </div>
+        <h2>Om mig:</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatum quae nulla minus mollitia qui blanditiis quibusdam? Totam, aut soluta exercitationem eum libero labore et! Quisquam, similique! Enim, ipsum cupiditate?</p>
+    </article>
+</section>
 
 </body>
 </html>
